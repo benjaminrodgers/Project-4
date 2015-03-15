@@ -22,6 +22,13 @@
  * OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  * OTHER DEALINGS IN THE SOFTWARE.
  */
+ /////////CHANGE LOG///////// 
+ /*
+ * added pointer - Line 65
+ * noteStatus function - Line 80
+ * selector - line 123
+ * listener - line 136
+ */
 /*jshint
          asi:true,
          bitwise:true,

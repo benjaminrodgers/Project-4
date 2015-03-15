@@ -57,6 +57,7 @@ define( [ "yasmf", "app/models/noteStorageSingleton",
     self._contentsEditor = null;
     self._backButton = null;
     self._deleteButton = null;
+	// pointer for status change
 	self._noteStatus = null;
     // the note we're editing
     self._note = null;
