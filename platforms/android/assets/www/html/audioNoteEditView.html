@@ -3,7 +3,6 @@
       audioNoteEditView.html
       @author Kerri Shotts
       @version 1.0.0
-
       Copyright (c) 2013 Packt Publishing
       Permission is hereby granted, free of charge, to any person obtaining a copy of this
       software and associated documentation files (the "Software"), to deal in the Software
@@ -19,6 +18,8 @@
       LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
       OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
       OTHER DEALINGS IN THE SOFTWARE.
+	  
+	
     -->
 
 <body>
@@ -27,7 +28,15 @@
     <div class="ui-bar-button-group ui-align-left">
       <div class="ui-bar-button ui-tint-color ui-back-button">%BACK%</div>
     </div>
+	<!-- Added drop down select menu -->
+	<!-- Selection menu for status -->
+    <select class="ui-status">
+	<option value="<img src=&quot;./js/lib/yasmf-assets/chat-bubble@2x.png&quot; style=&quot;width: 45px; &quot; />">Recent</option>
+		<option value="<img src=&quot;./js/lib/yasmf-assets/pushpin.png&quot; style=&quot;width: 45px; &quot; />">Follow Up</option>
+		<option value="<img src=&quot;./js/lib/yasmf-assets/file-cabinet.jpg&quot; style=&quot;width: 45px; &quot; />">Archive</option>
+    </select>
     <div class="ui-bar-button-group ui-align-right">
+        
       <div class="ui-bar-button ui-destructive-color">%DELETE_NOTE%</div>
     </div>
   </div>

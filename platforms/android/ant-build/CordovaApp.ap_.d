@@ -57,6 +57,7 @@ c:\sandbox\webd265\ch06\platforms\android\assets\www\js\app\views \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\app\factories\noteFactory.js \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\app\factories\noteViewFactory.js \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\app\models\audioNote.js \
+c:\sandbox\webd265\ch06\platforms\android\assets\www\js\app\models\audioNoteold.js \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\app\models\baseNote.js \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\app\models\cameraManager.js \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\app\models\imageNote.js \
@@ -64,6 +65,7 @@ c:\sandbox\webd265\ch06\platforms\android\assets\www\js\app\models\mediaManager.
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\app\models\noteStorage.js \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\app\models\noteStorageSingleton.js \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\app\views\audioNoteEditView.js \
+c:\sandbox\webd265\ch06\platforms\android\assets\www\js\app\views\audioNoteEditViewold.js \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\app\views\imageNoteEditView.js \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\app\views\noteListView.js \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\app\views\textNoteEditView.js \
@@ -107,6 +109,7 @@ c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\circle-
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\clock@2x.png \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\delete@2x.png \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\download@2x.png \
+c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\file-cabinet.jpg \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\film@2x.png \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\gear@2x.png \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\gps-locate@2x.png \
@@ -123,16 +126,22 @@ c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\photo@2
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\play-filled@2x.png \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\play-hollow@2x.png \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\plus@2x.png \
+c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\pushpin.png \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\share@2x.png \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\sound-wave@2x.png \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\square-filled@2x.png \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\square-hollow@2x.png \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\tag@2x.png \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\js\lib\yasmf-assets\trash@2x.png \
+c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.battery-status \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.camera \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.file \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.globalization \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.media \
+c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.network-information \
+c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\uk.co.ilee.socialmessage \
+c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.battery-status\www \
+c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.battery-status\www\battery.js \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.camera\www \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.camera\www\Camera.js \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.camera\www\CameraConstants.js \
@@ -167,4 +176,9 @@ c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.
 c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.media\www \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.media\www\Media.js \
 c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.media\www\MediaError.js \
+c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.network-information\www \
+c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.network-information\www\Connection.js \
+c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\org.apache.cordova.network-information\www\network.js \
+c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\uk.co.ilee.socialmessage\www \
+c:\sandbox\webd265\ch06\platforms\android\assets\www\plugins\uk.co.ilee.socialmessage\www\socialmessage.js \
 c:\sandbox\webd265\ch06\platforms\android\ant-build\AndroidManifest.xml \

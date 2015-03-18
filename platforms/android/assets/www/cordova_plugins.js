@@ -201,6 +201,35 @@ module.exports = [
         "clobbers": [
             "CameraPopoverHandle"
         ]
+    },
+    {
+        "file": "plugins/uk.co.ilee.socialmessage/www/socialmessage.js",
+        "id": "uk.co.ilee.socialmessage.SocialMessage",
+        "clobbers": [
+            "socialmessage"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.battery-status/www/battery.js",
+        "id": "org.apache.cordova.battery-status.battery",
+        "clobbers": [
+            "navigator.battery"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.network-information/www/network.js",
+        "id": "org.apache.cordova.network-information.network",
+        "clobbers": [
+            "navigator.connection",
+            "navigator.network.connection"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.network-information/www/Connection.js",
+        "id": "org.apache.cordova.network-information.Connection",
+        "clobbers": [
+            "Connection"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -209,7 +238,10 @@ module.exports.metadata =
     "org.apache.cordova.globalization": "0.3.4",
     "org.apache.cordova.file": "1.3.3",
     "org.apache.cordova.media": "0.2.16",
-    "org.apache.cordova.camera": "0.3.5"
+    "org.apache.cordova.camera": "0.3.5",
+    "uk.co.ilee.socialmessage": "0.2.6",
+    "org.apache.cordova.battery-status": "0.2.12",
+    "org.apache.cordova.network-information": "0.2.15"
 }
 // BOTTOM OF METADATA
 });

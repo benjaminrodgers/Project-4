@@ -23,6 +23,18 @@
                         {
                             "xml": "<feature name=\"Camera\"><param name=\"android-package\" value=\"org.apache.cordova.camera.CameraLauncher\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SocialMessage\"><param name=\"android-package\" value=\"uk.co.ilee.socialmessage.SocialMessage\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Battery\"><param name=\"android-package\" value=\"org.apache.cordova.batterystatus.BatteryListener\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -32,7 +44,7 @@
                     "/*": [
                         {
                             "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
-                            "count": 3
+                            "count": 4
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />",
@@ -44,6 +56,10 @@
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
                             "count": 1
                         }
                     ]
@@ -62,6 +78,15 @@
             "PACKAGE_NAME": "com.packtpub.phonegaphotshot.filerv4"
         },
         "org.apache.cordova.camera": {
+            "PACKAGE_NAME": "com.packtpub.phonegaphotshot.filerv4"
+        },
+        "uk.co.ilee.socialmessage": {
+            "PACKAGE_NAME": "com.packtpub.phonegaphotshot.filerv4"
+        },
+        "org.apache.cordova.battery-status": {
+            "PACKAGE_NAME": "com.packtpub.phonegaphotshot.filerv4"
+        },
+        "org.apache.cordova.network-information": {
             "PACKAGE_NAME": "com.packtpub.phonegaphotshot.filerv4"
         }
     },

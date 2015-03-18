@@ -45,6 +45,48 @@ define( [ "yasmf", "app/views/noteListView" ], function( _y, NoteListView ) {
   var APP = {};
   // APP.start will load the first view and kick us off
   APP.start = function() {
+  var gN = _y.UI.globalNotifications;
+var notifications = {
+	"pause":
+{ notification: "applicationPause", handler: APP.onPause },
+"resume":
+{ notification: "applicationResume", handler: APP.onResume },
+"online":
+{ notification: "applicationOnline", handler:
+APP.onConnectionStatusChanged },
+"offline":
+{ notification: "applicationOffline", handler:
+APP.onConnectionStatusChanged },
+"batterycritical":
+{ notification: "batteryCritical", handler:
+APP.onBatteryStatusChanged },
+"batterylow":
+{ notification: "batteryLow", handler:
+APP.onBatteryStatusChanged },
+"batterystatus":
+{ notification: "batteryStatus", handler:
+APP.onBatteryStatusChanged },
+"menubutton":
+{ notification: "menuButtonPressed", handler:
+APP.onMenuButtonPressed },
+"searchbutton":
+{ notification: "searchButtonPressed",handler:
+APP.onSearchButtonPressed }
+};
+for ( var DOMEvent in notifications ) {
+if ( notifications.hasOwnProperty ( DOMEvent ) ) {
+var notification = notifications[DOMEvent];
+gN.registerNotification( notification.notification );
+gN.addListenerForNotification( notification.notification,
+notification.handler );
+(function (notification) {
+window.addEventListener( DOMEvent, function () {
+var args = Array.prototype.slice.call(arguments);
+gN.notify(notification, args);
+}, false);
+})(notification.notification);
+}
+}
     // find the rootContainer DOM element
     var rootContainer = _y.ge( "rootContainer" );
     // create a new note list

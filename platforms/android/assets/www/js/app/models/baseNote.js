@@ -22,6 +22,11 @@
  * OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  * OTHER DEALINGS IN THE SOFTWARE.
  */
+ /////////CHANGE LOG///////// 
+ /*
+ * notification - 64 
+ * get and set functions - 90
+ */
 /*jshint
          asi:true,
          bitwise:true,
@@ -82,7 +87,7 @@ define( [ "yasmf" ], function( _y ) {
       set: self.setUID,
       configurable: true
     } );
-	//status functions
+	//status get and set functions
 	self._status = "Recent";
     self.getStatus = function() {
       return self._status;

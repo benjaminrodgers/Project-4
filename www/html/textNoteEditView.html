@@ -30,11 +30,11 @@
       <div class="ui-bar-button ui-tint-color ui-back-button">%BACK%</div>
     </div>
 	<!-- Selection menu for status -->
+	<!-- For the icons, I used HTML special chars to generate quotation marks.  This allowed me to insert img tags and inline css styling -->
     <select class="ui-status">
-		<option value="Recent">Recent</option>
-		<option value="In progress">In Progress</option>
-		<option value="Needs attention">Needs Attention</option>
-		<option value="Completed">Completed</option>
+	<option value="<img src=&quot;./js/lib/yasmf-assets/chat-bubble@2x.png&quot; style=&quot;width: 45px; &quot; />">Recent</option>
+		<option value="<img src=&quot;./js/lib/yasmf-assets/pushpin.png&quot; style=&quot;width: 45px; &quot; />">Follow Up</option>
+		<option value="<img src=&quot;./js/lib/yasmf-assets/file-cabinet.jpg&quot; style=&quot;width: 45px; &quot; />">Archive</option>
     </select>
     <div class="ui-bar-button-group ui-align-right">
       <div class="ui-bar-button ui-destructive-color">%DELETE_NOTE%</div>

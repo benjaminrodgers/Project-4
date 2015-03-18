@@ -22,6 +22,10 @@
  * OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  * OTHER DEALINGS IN THE SOFTWARE.
  */
+ /////////CHANGE LOG///////// 
+ /*
+ * status identifier - Line 219
+ */
 /*jshint
          asi:true,
          bitwise:true,

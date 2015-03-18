@@ -6,6 +6,8 @@ c:\sandbox\webd265\ch06\platforms\android\ant-build\classes\com\packtpub\phonega
 c:\sandbox\webd265\ch06\platforms\android\ant-build\classes\com\packtpub\phonegaphotshot\filerv4\R$string.class \
 c:\sandbox\webd265\ch06\platforms\android\ant-build\classes\com\packtpub\phonegaphotshot\filerv4\R$xml.class \
 c:\sandbox\webd265\ch06\platforms\android\ant-build\classes\com\packtpub\phonegaphotshot\filerv4\R.class \
+c:\sandbox\webd265\ch06\platforms\android\ant-build\classes\org\apache\cordova\batterystatus\BatteryListener$1.class \
+c:\sandbox\webd265\ch06\platforms\android\ant-build\classes\org\apache\cordova\batterystatus\BatteryListener.class \
 c:\sandbox\webd265\ch06\platforms\android\ant-build\classes\org\apache\cordova\camera\CameraLauncher.class \
 c:\sandbox\webd265\ch06\platforms\android\ant-build\classes\org\apache\cordova\camera\ExifHelper.class \
 c:\sandbox\webd265\ch06\platforms\android\ant-build\classes\org\apache\cordova\camera\FileHelper.class \
@@ -60,4 +62,8 @@ c:\sandbox\webd265\ch06\platforms\android\ant-build\classes\org\apache\cordova\m
 c:\sandbox\webd265\ch06\platforms\android\ant-build\classes\org\apache\cordova\media\AudioPlayer$STATE.class \
 c:\sandbox\webd265\ch06\platforms\android\ant-build\classes\org\apache\cordova\media\AudioPlayer.class \
 c:\sandbox\webd265\ch06\platforms\android\ant-build\classes\org\apache\cordova\media\FileHelper.class \
+c:\sandbox\webd265\ch06\platforms\android\ant-build\classes\org\apache\cordova\networkinformation\NetworkManager$1.class \
+c:\sandbox\webd265\ch06\platforms\android\ant-build\classes\org\apache\cordova\networkinformation\NetworkManager.class \
+c:\sandbox\webd265\ch06\platforms\android\ant-build\classes\uk\co\ilee\socialmessage\SocialMessage$1.class \
+c:\sandbox\webd265\ch06\platforms\android\ant-build\classes\uk\co\ilee\socialmessage\SocialMessage.class \
 c:\sandbox\webd265\ch06\platforms\android\ant-build\dexedLibs\classes-f6b012576991f021517ad0b6b6bd77c2.jar \
